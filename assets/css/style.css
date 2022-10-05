@@ -6,10 +6,9 @@
     box-sizing: border-box;
 }
 body {
-    background: rgba(28, 131, 156, 0.68);
-
-
+    background: rgba(0, 0, 0, 0.68);
 }
+
 .home-menu {
     width:100%;
     height: 100vh;
@@ -150,15 +149,6 @@ cursor: pointer;
     
 }
 
-.hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.7)), url(../images/san-big.jpg),url(../images/san-big2.jpg),url(../images/san-current.jpg),url(../images/san_current.png),url(../images/san-shred.png),url(../images/san-shred2.png),url(../images/san-small.jpg);
-    width: 100%;
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0;
-
-}
 
 .program-menu {
     width:100%;
@@ -167,28 +157,44 @@ cursor: pointer;
     background-size: cover;
     background-position: center;
 }
-
-.bio {
+.hero-outer {
+    height: 600px;
     width: 100%;
-    position: absolute;
-    top: 30%;
-    text-align: center;
-    color: #fff; 
+    overflow: hidden;
+    
+}
+.cover-text , #cover-text h2 {
+    color: rgb(255, 255, 255);
 
 }
-.bio h1 {
-    font-size: 90px;
-    margin-top: 20px;
+
+.cover-text {
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 900px;
+    height: 300px;
+
+
+    padding-top: 40px;
+    padding-left: 10px;
+    
+   
+
+
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8),rgb(0, 0, 0, 0.7));
+    
+    bottom: 40px;
+    right: 150px;
+
+    position: absolute top;
 }
-.bio p {
-    font-size: 20px;
-    margin-top: 20px 0;
-}
-.bio video {
-    max-width: 100%;
-    height: 500px;
-    background: black;
-    position: relative;
+.cover-text h1 {
+    text-align: center;
+    text-decoration: solid;
+    font-size: 60px;
+    
 }
 
 .ppl {
@@ -204,6 +210,26 @@ cursor: pointer;
 
 }
 
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+    
+}
+
+#photos > img {
+    width: 100%;
+
+
+}
+
+
+#progress-vid {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
 
  
 
