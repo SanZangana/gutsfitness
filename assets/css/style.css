@@ -163,7 +163,7 @@ cursor: pointer;
     overflow: hidden;
     
 }
-.cover-text , #cover-text h2 {
+.cover-text , .cover-text h2 {
     color: rgb(255, 255, 255);
 
 }
@@ -172,9 +172,10 @@ cursor: pointer;
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 4px;
+    
 
-    width: 900px;
-    height: 300px;
+    width: 700px;
+    height: 400px;
 
 
     padding-top: 40px;
@@ -188,33 +189,31 @@ cursor: pointer;
     bottom: 40px;
     right: 150px;
 
-    position: absolute top;
+    position: absolute; 
+
 }
 .cover-text h1 {
     text-align: center;
     text-decoration: solid;
     font-size: 60px;
+   
     
 }
 
-.ppl {
-    display: inline;
-    text-align: center;
-    color: #fff;
+    
+.cover-text video {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 80px;
 }
-.ppl h1 {
-    border: 5px solid #fff;
-    border-radius: 20px;
-    padding: 40px;
-    margin: 0;
 
-}
 
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 2;
+    column-count: 3;
     column-gap: 0;
+    color: aqua;
     
 }
 
@@ -223,13 +222,35 @@ cursor: pointer;
 
 
 }
-
-
-#progress-vid {
-    display: flex;
-    width: 100%;
-    height: 50%;
+#program-text p {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
 }
+
+table {
+    margin: 2rem auto;
+    border: 1px solid red;
+    border-collapse: collapse;
+    border-spacing: 1rem;
+    background-color: rgba(0, 0, 0, 0.68);
+    color: #fff;
+}
+
+thead {
+    font-size: 30px;
+    
+}
+th {
+    border: 3px solid turquoise;
+    padding: 1rem;
+}
+td {
+    border: 3px solid turquoise;
+    padding: 1rem;
+    font-size: 20px;
+}
+
 
  
 
