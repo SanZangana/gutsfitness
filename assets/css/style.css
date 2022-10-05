@@ -23,6 +23,7 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(0, 0, 0, 0.7); 
 
 }
 
@@ -32,12 +33,19 @@ h1 {
     font-size: xx-large;
     font-weight: bolder;
     margin-left: 20px;
+    transition: 0.5s;
+}
+h1:hover {
+    transform: scale(1.2);
+    color: turquoise;
+    background-color: #fff;
 }
 .navbar ul li {
     list-style: none;
     display: inline-block;
     margin: 0 40px;
     position: relative;
+    
 }
 .navbar ul li a {
     text-decoration: none;
@@ -229,12 +237,14 @@ cursor: pointer;
 }
 
 table {
-    margin: 2rem auto;
+    float: left;
+    margin: 3rem auto;
     border: 1px solid red;
     border-collapse: collapse;
     border-spacing: 1rem;
     background-color: rgba(0, 0, 0, 0.68);
     color: #fff;
+    margin-left: 20px;
 }
 
 thead {
@@ -249,6 +259,16 @@ td {
     border: 3px solid turquoise;
     padding: 1rem;
     font-size: 20px;
+}
+#links {
+    float: right;
+    margin: 2rem auto;
+    border: 1px solid red;
+    border-collapse: collapse;
+    border-spacing: 1rem;
+    background-color: rgba(0, 0, 0, 0.68);
+    color: #fff;
+
 }
 
 
