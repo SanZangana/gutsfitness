@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap');
 * {
     margin: 0%;
     padding: 0%;
@@ -6,39 +6,45 @@
     box-sizing: border-box;
 }
 body {
-    background: rgba(0, 0, 0, 0.68);
+    background: rgb(255, 255, 255);
+}
+h1 {
+    font-family: 'Gemunu Libre', sans-serif; 
+}
+
+p {
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 .home-menu {
-    width:100%;
+    width: 100%;
     height: 100vh;
     background-image:linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.7)), url(../images/bg_for_main.jpg);
     background-size: cover;
     background-position: center;
 }
 .navbar {
-    width: 85%;
-    margin: auto;
+    max-width: 100%;
+    margin: 0 auto;
     padding: 40px 0;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.68);
+    
 
 }
 
 h1 {
     text-decoration: none;
-    color: rgb(16, 167, 190);
-    font-size: xx-large;
+    font-size: 50px;
     font-weight: bolder;
     margin-left: 20px;
     transition: 0.5s;
 }
 h1:hover {
-    transform: scale(1.2);
-    color: turquoise;
-    background-color: #fff;
+    transform: scale(1.1);
+    
 }
 .navbar ul li {
     list-style: none;
@@ -51,17 +57,18 @@ h1:hover {
     text-decoration: none;
     color: rgb(9, 150, 185);
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 .navbar ul li::after {
 content: '';
-height: 4px;
+height: 2px;
 width: 0;
 background: rgb(255, 255, 255);
 position: absolute;
 left: 0;
-bottom: -5px;
-transition: 0.3s;
+bottom: -2px;
+transition: 0.4s;
 cursor: pointer;
 
 }
@@ -74,77 +81,64 @@ cursor: pointer;
     height: 600px;
     width: 100%;
     overflow: hidden;
+    top: 40px;
+    align-items: center;
     
 }
-#cover-text , #cover-text h2 {
-    color: #bbb;
 
-}
+
 
 #cover-text {
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 4px;
+    
 
-    width: 400px;
-    height: 250px;
+    width: 600px;
+    height: 350px;
 
 
     padding-top: 10px;
     padding-left: 10px;
    
-
-
-    background-image: linear-gradient(rgb(22, 21, 21),rgb(24, 171, 188));
-    
+    left: 10px;
     bottom: 40px;
-    right: 150px;
 
+    background-image: linear-gradient(rgb(22, 21, 21),rgb(0, 0, 0, 0.8));
+    
     position: absolute;
 }
-.btn {
-    width: 150px;
-    padding: 10px 0;
+
+#cover-text h2 {
+    color: rgb(19, 121, 152);
+    font-size: 35px;
+
+}
+#cover-text p {
+    color: white;
+    font-size: 20px;
+}
+
+#why {
+    flex-basis: 40%;
+    background: linear-gradient(rgb(22, 21, 21),rgb(0, 0, 0, 0.8));
+    border-radius: 35px;
+    margin-top: 2%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+#why h2 {
     text-align: center;
-    margin: 30px 10px;
-    border-radius: 30px;
-    font-weight: bold;
-    border: 4px solid rgb(0, 0, 0);
-    background: transparent;
+    font-size: 70px;
     color: #fff;
-    cursor: pointer;
-    transition: 0.6s;
-    text-decoration: none;
-    font-size: 75%;
-    padding: 15px 25px;
-    letter-spacing: 1px;
-
+    
 
 }
-.btn:hover {
-    transform: scale(1.2);
-}
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    background-color: burlywood;
-}
-#circle-container {
-    width: 250px;
-    height: 250px;
-    padding: 20px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 80%;
-    margin: 0 auto;
-}
-#circle-cover {
-    background-image: url(../css/images/san-current.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
+#why p {
+    line-height: 40px;
+    padding: 15px;
+    font-size: 30px;
+    color: white;
 }
 
 .socials  {
@@ -158,6 +152,59 @@ cursor: pointer;
 }
 
 
+.hero-img {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.7)), url(../images/gym-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.hero-txt {
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+.hero-txt h2 {
+    font-size: 90px;
+    font-weight: 500;
+    margin: 1rem auto;
+    text-transform: capitalize;
+  
+
+}
+.hero-txt h3 {
+    font-size: 45px;
+    text-transform: capitalize;
+    
+}
+.hero-txt p {
+    font-size: 20px;
+    margin: 1rem auto;
+    text-transform: none;
+}
+
+.hero-btn {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.7));
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: 0.6s;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.hero-btn:hover {
+    transform: scale(1.3);
+    
+
+
+}
 .program-menu {
     width:100%;
     height: 100vh;
@@ -165,63 +212,15 @@ cursor: pointer;
     background-size: cover;
     background-position: center;
 }
-.hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    
-}
-.cover-text , .cover-text h2 {
-    color: rgb(255, 255, 255);
 
-}
-
-.cover-text {
-    font-size: 130%;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    
-
-    width: 700px;
-    height: 400px;
-
-
-    padding-top: 40px;
-    padding-left: 10px;
-    
-   
-
-
-    background-image: linear-gradient(rgb(0, 0, 0, 0.8),rgb(0, 0, 0, 0.7));
-    
-    bottom: 40px;
-    right: 150px;
-
-    position: absolute; 
-
-}
-.cover-text h1 {
-    text-align: center;
-    text-decoration: solid;
-    font-size: 60px;
-   
-    
-}
-
-    
-.cover-text video {
-    width: 100%;
-    height: 50%;
-    margin-bottom: 80px;
-}
 
 
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 3;
+    column-count: 2;
     column-gap: 0;
-    color: aqua;
+    
     
 }
 
@@ -239,7 +238,6 @@ cursor: pointer;
 table {
     float: left;
     margin: 3rem auto;
-    border: 1px solid red;
     border-collapse: collapse;
     border-spacing: 1rem;
     background-color: rgba(0, 0, 0, 0.68);
@@ -268,8 +266,49 @@ td {
     border-spacing: 1rem;
     background-color: rgba(0, 0, 0, 0.68);
     color: #fff;
+    text-decoration: none;
 
 }
+#links th {
+    color: #fff;
+    font-size: 20px;
+    
+}
+.gallery-hero {
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 350px;
+    height: 150px;
+
+
+    padding-top: 10px;
+    padding-left: 10px;
+   
+    background-image: linear-gradient(rgb(0,0,0, 0.6),rgb(0, 0, 0, 0.5));
+    
+    margin: 4rem auto;
+
+    position: absolute;
+}
+.gallery-text h2 {
+    color: rgb(26, 161, 152);
+    font-size: 25px;
+}
+.gallery-text p {
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+/* Media queries */
+
+
+    
+
+
 
 
  
