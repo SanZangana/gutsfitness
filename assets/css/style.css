@@ -258,16 +258,19 @@ cursor: pointer;
 
 
 }
-#program-txt p {
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-    
-    border: 2px solid turquoise;
-    border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.68);
+#program-txt {
     justify-content: center;
     justify-items: center;
+    display: flex;
+}
+#program-txt p {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: 2px solid turquoise;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.68);
+    
 }
 
 
@@ -358,33 +361,18 @@ cursor: pointer;
     text-transform: capitalize;
 
 }
-#yt-link {
-    list-style: none;
-    display: flex;
-    align-items: center;
+
+#links {
     justify-content: center;
+    justify-items: center;
+    display: flex;
+    margin: 2rem auto;
     
 }
-#links li {
-    list-style: none;
-    margin: 20px auto;
-}
-#links li a {
-    text-decoration: none;
-    font-size: 30px;
-    border: 2px solid turquoise;
-    background-color: rgb(0, 0, 0, 0.8) ;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5px;
-    transition: color .4s ease-in-out;
 
-    padding: 10px;
-}
-#links li a:hover {
- color: aqua;
+iframe {
+    width: 40vw;
+    min-height: 20vw;
 }
 
 
