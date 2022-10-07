@@ -236,13 +236,10 @@ cursor: pointer;
 }
 .program-menu {
     width: 100%;
-    height: 100vh;
     background-image:linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.7)), url(../images/bg-img-for-program.webp);
     background-size: cover;
     background-position: center;
 }
-
-
 
 #photos {
     clear: both;
@@ -352,8 +349,6 @@ cursor: pointer;
     background: black;
     width: 100vw;
     text-align: center;
-    
-
 }
 .bottom-footer p {
     font-size: 12px;
@@ -366,13 +361,15 @@ cursor: pointer;
     justify-content: center;
     justify-items: center;
     display: flex;
-    margin: 2rem auto;
+    margin: auto;
+   
     
 }
 
 iframe {
-    width: 40vw;
-    min-height: 20vw;
+    width: 45vw;
+    min-height: 30vw;
+    margin: 30px;
 }
 
 
