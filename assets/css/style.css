@@ -42,15 +42,15 @@ p {
 /* General styling rules for navbar */
 
 
-h1 {
-    
+#logo {
+    color: #fff;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bolder;
-    margin-left: 20px;
+    margin-left: 30px;
     transition: 0.5s;
 }
-h1:hover {
+#logo:hover {
     transform: scale(1.1);
     
 }
@@ -372,15 +372,18 @@ iframe {
     margin: 30px;
 }
 
+    /* For media screen sizes from 320px wide and down */
 
+@media screen and (mad-width: 950px) {
 
-/* Media queries */
+    .navbar ul {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        bottom: 20px;
+        line-height: 25px;
+        
+       
+    }
 
-
-    
-
-
-
-
- 
-
+}
