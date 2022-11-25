@@ -10,35 +10,38 @@ This website is made primarly for people who might be struggling with fat loss o
 
     - Available on all four pages and it includes links to the Logo, Home page, Gallery and Sign Up page and it stays indentical on all the pages, it's also full responsive!
     - The main purpose of this navigation bar is to help the visitor to easily find what they're looking for. 
-![Screenshot of the navibar](../assets/images/navbar.png)
+![Screenshot of the navbar](assets/images/navbar.png)
 
 - __Landing page__
     - This page is structured in a way so the visitor(s) can easily know what this website can provide
     - The paragraph under the title is made to catch the viewers attention
-! [Screenshot of the landing page](../assets/images/landpage.png)
+! [Screenshot of the landing page](assets/images/landpage.png)
 
 - __Reasons to train__
     - Here the user will have a small section of text that will provide benefits of training
     - This section will make the user more curious and intreseted in checking out the programe
-![Screenshot of reasons to train section](../assets/images/reasons-to-train.png)
+![Screenshot of reasons to train section](assets/images/reasons-to-train.png)
 - __The Footer__
     - This section has three links to seperate social media platform to easily come in contact with GutsFitness
     - This will provide a easy way to stay in touch and ask questions regarding the programe
-! [Screenshot of footer](../assets/images/footer.png)
+! [Screenshot of footer](assets/images/footer.png)
 - __About Page__ 
     - This page will introduce the viewer with what the site will provide and some information about the creator behind the  site
     - It also has a "READY!" button linked to the program page so the user easily can access the "program page"
-! [Screenshot of about page](../assets/images/about-page.png
+! [Screenshot of about page](assets//images/about-page.png)
 )
 - __Program__
     - This page has two videos from youtube for the user to experience how to train upper and lower body.
-- ![screenshot of Program page](../assets/images/)
+- ![screenshot of Program page](/assets/images/)
 - __Gallery__ 
     - The gallery page has several pictures of my personal progress that has been made throughout the years
     - These photos will work as some sort of reference for the visitor so that they get some sort of proof that the programme on this website is  valid
-![Screenshot of gallery page](../assets/images/gallery.png)
+![Screenshot of gallery page](/assets/images/gallery.png)
 - __Hamburger Menu__
     - When the user is using mobile device the navigation bar turns to a "Hamburger Menu" for them to easily click and see the other accesible pages. This was done with some minor JavaScript.
+    ![Screenshot of hamburger menu](assets/images/toggle-menu1.png)
+    ![Screenshot of hamburger menu](assets/images/toggle-menu.png)
+
 ### Features Left to Implement
 - The feature I would like to add next is some sort of form for the user to fill out, there will be some questions asking what type of goal the user has with the training session that I can provide and also if the user has some questions for me to answer.
 
@@ -53,11 +56,11 @@ The tests I ran to see wether or not the integrity of the HTML & CSS was valid w
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/SanZangana/Ani-Quiz), navigate to the Settings tab 
+  - In the [GitHub repository](https://github.com/SanZangana/gutsfitness), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found on [GitHub Pages](https://sanzangana.github.io/Ani-Quiz/)
+The live link can be found on [GitHub Pages](https://sanzangana.github.io/gutsfitness/)
 
 ### Local Deployment
 
