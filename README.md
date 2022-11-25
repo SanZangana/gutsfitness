@@ -2,6 +2,8 @@
 I present to you my first ever project with HTML & CSS, GutsFitness!
 This website is made primarly for people who might be struggling with fat loss or gaining muscle. 
 
+![Screenshot of live site](assets/images/amiresponsive-pp1.png)
+
 ## Features
 
 ### Existing features
