@@ -63,11 +63,11 @@ The live link can be found on [GitHub Pages](https://sanzangana.github.io/Ani-Qu
 
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/SanZangana/Ani-Quiz.git`
+- `https://github.com/SanZangana/gutsfitness`
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/SanZangana/Ani-Quiz)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/SanZangana/gutsfitness)
 
 ## Credit
 - I would first and foremost thank my CI Mentor Tim Nelson for guiding me for my first ever project, he has been teaching me how to fix issues regarding the project.
