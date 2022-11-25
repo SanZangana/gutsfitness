@@ -25,16 +25,16 @@ This website is made primarly for people who might be struggling with fat loss o
 - __The Footer__
     - This section has three links to seperate social media platform to easily come in contact with GutsFitness
     - This will provide a easy way to stay in touch and ask questions regarding the programe
-! [Screenshot of footer](assets/images/footer.png)
+![Screenshot of footer](assets/images/footer.png)
 
 - __About Page__ 
     - This page will introduce the viewer with what the site will provide and some information about the creator behind the  site
     - It also has a "READY!" button linked to the program page so the user easily can access the "program page"
-! [Screenshot of about page](assets//images/about-page.png)
-)
+![Screenshot of about page](assets//images/about-page.png)
+
 - __Program__
     - This page has two videos from youtube for the user to experience how to train upper and lower body.
-- ![screenshot of Program page](/assets/images/screenshot-program.png)
+- ![Screenshot of Program page](/assets/images/screenshot-program.png)
 
 - __Gallery__ 
     - The gallery page has several pictures of my personal progress that has been made throughout the years
