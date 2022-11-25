@@ -15,16 +15,18 @@ This website is made primarly for people who might be struggling with fat loss o
 - __Landing page__
     - This page is structured in a way so the visitor(s) can easily know what this website can provide
     - The paragraph under the title is made to catch the viewers attention
-! [Screenshot of the landing page](assets/images/landpage.png)
+![Screenshot of the landing page](assets/images/landpage.png)
 
 - __Reasons to train__
     - Here the user will have a small section of text that will provide benefits of training
     - This section will make the user more curious and intreseted in checking out the programe
 ![Screenshot of reasons to train section](assets/images/reasons-to-train.png)
+
 - __The Footer__
     - This section has three links to seperate social media platform to easily come in contact with GutsFitness
     - This will provide a easy way to stay in touch and ask questions regarding the programe
 ! [Screenshot of footer](assets/images/footer.png)
+
 - __About Page__ 
     - This page will introduce the viewer with what the site will provide and some information about the creator behind the  site
     - It also has a "READY!" button linked to the program page so the user easily can access the "program page"
@@ -32,11 +34,13 @@ This website is made primarly for people who might be struggling with fat loss o
 )
 - __Program__
     - This page has two videos from youtube for the user to experience how to train upper and lower body.
-- ![screenshot of Program page](/assets/images/)
+- ![screenshot of Program page](/assets/images/screenshot-program.png)
+
 - __Gallery__ 
     - The gallery page has several pictures of my personal progress that has been made throughout the years
     - These photos will work as some sort of reference for the visitor so that they get some sort of proof that the programme on this website is  valid
 ![Screenshot of gallery page](/assets/images/gallery.png)
+
 - __Hamburger Menu__
     - When the user is using mobile device the navigation bar turns to a "Hamburger Menu" for them to easily click and see the other accesible pages. This was done with some minor JavaScript.
     ![Screenshot of hamburger menu](assets/images/toggle-menu1.png)
@@ -47,6 +51,17 @@ This website is made primarly for people who might be struggling with fat loss o
 
 ## Validator Tests
 The tests I ran to see wether or not the integrity of the HTML & CSS was valid were done on W3C. I also ran a perfomance test on Google Lighthouse. Down below I have provided screenshots to show credability and what kind of results I got by doing these tests.
+- HTML 
+- ![HTML Validation](assets/images/html-vali-pp1.png)
+
+- CSS
+- ![CSS Validation](assets/images/css-validation-pp1.png)
+
+- Mobile & Desktop test Lighthouse
+ - ![Mobile](assets/images/mobile-test.png)
+ - ![Desktop](assets/images/desktop-test.png)
+
+
 
 
 ## Bugs
